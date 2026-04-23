@@ -7,7 +7,15 @@
 
 // TODO: your code goes here
 
-int main(void) {
+
+
+int main(void){ 
+  double celsius2fahrenheit(float temp_celsius );{
+  double temp_f = 0;
+  temp_f = temp_celsius * 9/5+32;
+  return temp_f;
+  }
+
   double temp_celsius = 0;
 
   scanf("%lf", &temp_celsius);
